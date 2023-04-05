@@ -1,16 +1,15 @@
-# shop_app
+# Store App
 
 A new Flutter project.
 
-## Getting Started
+# Content
 
-This project is a starting point for a Flutter application.
+- Developed a mobile shop app using Flutter and a backend with PHP and MySQL.
+- Implemented user authentication and saved user info using shared preferences.
+- Used APIs, including a third-party image hosting API (Imgur), to handle data transfer and storage.
+- Utilized the GetX library to handle app state and streamline code organization.
+- Implemented features such as admin panel, order tracking, favorite items, and payment processing for a seamless user experience.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
