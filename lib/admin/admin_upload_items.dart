@@ -151,10 +151,10 @@ class _AdminUploadScreenState extends State<AdminUploadScreen> {
 
   uploadItemImage() async {
     var requestImgurApi = http.MultipartRequest(
-        "POST", Uri.parse("https://api.imgur.com/3/image"));
+        "POST", Uri.parse("create an account on imugr to get your url"));
     String imageName = DateTime.now().millisecondsSinceEpoch.toString();
     requestImgurApi.fields['title'] = imageName;
-    requestImgurApi.headers['Authorization'] = "Client-ID " "97601e7195a932f";
+    requestImgurApi.headers['Authorization'] = "Client-ID " "Your client-ID";
 
     var imageFile = await http.MultipartFile.fromPath(
       'image',
